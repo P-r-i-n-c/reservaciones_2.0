@@ -3,7 +3,7 @@
     "checkIn": true,
     "cancelada": false,
     "costo": 120000,
-    "fechaHora": "2023-04-13T11:26:04.164907",
+    "fechaHora": "2023-04-20T11:40:08.634890",
     "usuario": {
       "apellidos": "Alimaña",
       "identificacion": "1031420854",
@@ -16,9 +16,9 @@
       "trayecto": {
         "costo": 120000,
         "duracion": "PT2H30M",
+        "id": "NHDG",
         "origen": "Manizales",
-        "destino": "Cali",
-        "id": "NHDG"
+        "destino": "Cali"
       },
       "estado": "PROGRAMADO",
       "fechaHora": "2023-05-12T12:32",
@@ -44,7 +44,7 @@
     "checkIn": true,
     "cancelada": false,
     "costo": 120000,
-    "fechaHora": "2023-04-13T11:26:04.165230",
+    "fechaHora": "2023-04-20T11:40:08.635191",
     "usuario": {
       "apellidos": "Alimaña",
       "identificacion": "1031420854",
@@ -57,9 +57,9 @@
       "trayecto": {
         "costo": 120000,
         "duracion": "PT2H30M",
+        "id": "NHDG",
         "origen": "Manizales",
-        "destino": "Cali",
-        "id": "NHDG"
+        "destino": "Cali"
       },
       "estado": "PROGRAMADO",
       "fechaHora": "2023-05-12T12:32",
@@ -87,7 +87,7 @@
     "checkIn": true,
     "cancelada": false,
     "costo": 120000,
-    "fechaHora": "2023-04-13T11:26:04.165488",
+    "fechaHora": "2023-04-20T11:40:08.635403",
     "usuario": {
       "apellidos": "ela",
       "identificacion": "000",
@@ -100,9 +100,9 @@
       "trayecto": {
         "costo": 120000,
         "duracion": "PT2H30M",
+        "id": "NHDG",
         "origen": "Manizales",
-        "destino": "Cali",
-        "id": "NHDG"
+        "destino": "Cali"
       },
       "estado": "PROGRAMADO",
       "fechaHora": "2023-05-12T12:32",
@@ -130,7 +130,7 @@
     "checkIn": true,
     "cancelada": false,
     "costo": 120000,
-    "fechaHora": "2023-04-13T11:26:04.165697",
+    "fechaHora": "2023-04-20T11:40:08.635596",
     "usuario": {
       "apellidos": "Alimaña",
       "identificacion": "1031420854",
@@ -143,9 +143,9 @@
       "trayecto": {
         "costo": 120000,
         "duracion": "PT2H30M",
+        "id": "NHDG",
         "origen": "Manizales",
-        "destino": "Cali",
-        "id": "NHDG"
+        "destino": "Cali"
       },
       "estado": "PROGRAMADO",
       "fechaHora": "2023-05-12T12:32",
@@ -173,7 +173,7 @@
     "checkIn": true,
     "cancelada": false,
     "costo": 120000,
-    "fechaHora": "2023-04-13T11:26:04.165904",
+    "fechaHora": "2023-04-20T11:40:08.635795",
     "usuario": {
       "apellidos": "Alimaña",
       "identificacion": "1031420854",
@@ -186,9 +186,9 @@
       "trayecto": {
         "costo": 120000,
         "duracion": "PT2H30M",
+        "id": "NHDG",
         "origen": "Manizales",
-        "destino": "Cali",
-        "id": "NHDG"
+        "destino": "Cali"
       },
       "estado": "PROGRAMADO",
       "fechaHora": "2023-05-12T12:32",
@@ -216,7 +216,7 @@
     "checkIn": true,
     "cancelada": false,
     "costo": 120000,
-    "fechaHora": "2023-04-13T11:26:38.077439",
+    "fechaHora": "2023-04-20T11:40:08.636056",
     "usuario": {
       "apellidos": "ela",
       "identificacion": "000",
@@ -229,9 +229,9 @@
       "trayecto": {
         "costo": 120000,
         "duracion": "PT2H30M",
+        "id": "NHDG",
         "origen": "Manizales",
-        "destino": "Cali",
-        "id": "NHDG"
+        "destino": "Cali"
       },
       "estado": "PROGRAMADO",
       "fechaHora": "2023-05-12T12:32",
@@ -251,6 +251,47 @@
       "avion": {
         "matricula": "HK2023",
         "modelo": "Boeing"
+      },
+      "disponible": false
+    }
+  },
+  {
+    "checkIn": true,
+    "cancelada": false,
+    "costo": 90000,
+    "fechaHora": "2023-04-20T11:41:10.099229",
+    "usuario": {
+      "apellidos": "Alimaña",
+      "identificacion": "1031420854",
+      "tipoUsuario": "ADMINISTRADOR",
+      "contraseña": "202cb962ac59075b964b07152d234b70",
+      "nombres": "Juanito"
+    },
+    "id": "ANCMV",
+    "vuelo": {
+      "trayecto": {
+        "costo": 90000,
+        "duracion": "PT4H20M",
+        "id": "JWCA",
+        "origen": "China",
+        "destino": "Japon"
+      },
+      "estado": "PROGRAMADO",
+      "fechaHora": "2024-04-19T11:11",
+      "id": "2MX20",
+      "avion": {
+        "matricula": "HK2077",
+        "modelo": "Chevrolet"
+      }
+    },
+    "silla": {
+      "columna": "F",
+      "posicion": "08F",
+      "fila": 8,
+      "id": "ZY34I",
+      "avion": {
+        "matricula": "HK2077",
+        "modelo": "Chevrolet"
       },
       "disponible": false
     }

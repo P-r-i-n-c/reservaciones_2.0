@@ -116,17 +116,15 @@ public class Rest {
             return new StandardResponse(response, "ok", aviones.getJSONArray());
         });
 
-        put("/reservas/:id", (request, response) -> {
-            String id = request.params(":id");
-            JSONObject jsonBody = new JSONObject(request.body());
-            JSONObject json = reservas.set(id, jsonBody);
+        get("/usuarios/:identificacion", (request, response) -> {
+            String identificacion = request.params(":identificacion");
+            JSONObject json = usuarios.get(identificacion);
             return new StandardResponse(response, "ok", json);
         });
 
-        get("/usuarios/:identificacion", (request, response) -> {
-            // prueba7/HK7777 (HK7777, una matricula que tengamos guardada)
-            String identificacion = request.params(":identificacion");
-            JSONObject json = usuarios.get(identificacion);
+        get("/reservas/:id", (request, response) -> {
+            String id = request.params(":id");
+            JSONObject json = reservas.get(id);
             return new StandardResponse(response, "ok", json);
         });
 
