@@ -35,13 +35,16 @@ GET http://localhost:4567/usuarios/000
 
 ### obtener un array JSON de todas las reservas existentes
 GET http://localhost:4567/reservas
+###
+GET http://localhost:4567/reservas/ANCMV
+
 
 ### Cambiar "algo" de un vuelo, de los tantos que puede estar asociados a una reserva
-PUT http://localhost:4567/reservas/AHNKI
+PUT http://localhost:4567/reservas/ANCMV
 
 {
-    "idVuelo": "EEOI6",
-    "idSilla": "NY15B"
+    "idVuelo": "JWCA",
+    "idSilla": "2454M"
 }
 
 
