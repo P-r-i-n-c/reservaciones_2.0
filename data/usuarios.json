@@ -1,0 +1,17 @@
+[
+  {
+    "apellidos": "Alimaña",
+    "identificacion": "1031420854",
+    "tipoUsuario": "ADMINISTRADOR",
+    "contraseña": "202cb962ac59075b964b07152d234b70",
+    "nombres": "Juanito"
+  },
+  {
+    "apellidos": "ela",
+    "identificacion": "000",
+    "tipoUsuario": "AUXILIAR",
+    "contraseña": "202cb962ac59075b964b07152d234b70",
+    "nombres": "Manu"
+  }
+ 
+]

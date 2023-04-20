@@ -1,0 +1,724 @@
+[
+  {
+    "columna": "A",
+    "posicion": "01A",
+    "fila": 1,
+    "licor": "OPORTO",
+    "id": "OGKX5",
+    "menu": "VEGETARIANO",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "01C",
+    "fila": 1,
+    "licor": "WHISKEY",
+    "id": "Q9B7U",
+    "menu": "VEGETARIANO",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "01D",
+    "fila": 1,
+    "licor": "WHISKEY",
+    "id": "XUXNU",
+    "menu": "FILETE_DE_PESCADO",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "01F",
+    "fila": 1,
+    "licor": "NINGUNO",
+    "id": "MXBJR",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "02A",
+    "fila": 2,
+    "licor": "OPORTO",
+    "id": "KAVKY",
+    "menu": "POLLO_A_LA_NARANJA",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "02C",
+    "fila": 2,
+    "licor": "VINO",
+    "id": "DUU8Z",
+    "menu": "VEGETARIANO",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "02D",
+    "fila": 2,
+    "licor": "NINGUNO",
+    "id": "CE7XX",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "02F",
+    "fila": 2,
+    "licor": "NINGUNO",
+    "id": "QI1O9",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "03A",
+    "fila": 3,
+    "id": "0GNQX",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "B",
+    "posicion": "03B",
+    "fila": 3,
+    "id": "X21HM",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "03C",
+    "fila": 3,
+    "id": "2FWXT",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "03D",
+    "fila": 3,
+    "id": "EOJJG",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "E",
+    "posicion": "03E",
+    "fila": 3,
+    "id": "NY15B",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "03F",
+    "fila": 3,
+    "id": "XQ0JF",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "04A",
+    "fila": 4,
+    "id": "65HG5",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "B",
+    "posicion": "04B",
+    "fila": 4,
+    "id": "LQVSJ",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "04C",
+    "fila": 4,
+    "id": "PNX80",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "04D",
+    "fila": 4,
+    "id": "Z0BAG",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "E",
+    "posicion": "04E",
+    "fila": 4,
+    "id": "6QNXE",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "04F",
+    "fila": 4,
+    "id": "8CMQD",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "01A",
+    "fila": 1,
+    "licor": "NINGUNO",
+    "id": "B0OCB",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "01C",
+    "fila": 1,
+    "licor": "NINGUNO",
+    "id": "RELWM",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "01D",
+    "fila": 1,
+    "licor": "NINGUNO",
+    "id": "8YX3E",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "01F",
+    "fila": 1,
+    "licor": "NINGUNO",
+    "id": "0XBZO",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "02A",
+    "fila": 2,
+    "licor": "NINGUNO",
+    "id": "Q2CH2",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "02C",
+    "fila": 2,
+    "licor": "NINGUNO",
+    "id": "N930T",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "02D",
+    "fila": 2,
+    "licor": "NINGUNO",
+    "id": "M9A3T",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "02F",
+    "fila": 2,
+    "licor": "NINGUNO",
+    "id": "ZQ8TC",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "03A",
+    "fila": 3,
+    "licor": "NINGUNO",
+    "id": "2CYWI",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "03C",
+    "fila": 3,
+    "licor": "NINGUNO",
+    "id": "77PZ7",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "03D",
+    "fila": 3,
+    "licor": "NINGUNO",
+    "id": "ZL7XE",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "03F",
+    "fila": 3,
+    "licor": "NINGUNO",
+    "id": "6NW4M",
+    "menu": "INDEFINIDO",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "04A",
+    "fila": 4,
+    "id": "PZ1G0",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "B",
+    "posicion": "04B",
+    "fila": 4,
+    "id": "6QRND",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "04C",
+    "fila": 4,
+    "id": "DC8PU",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "04D",
+    "fila": 4,
+    "id": "IWE6Z",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "E",
+    "posicion": "04E",
+    "fila": 4,
+    "id": "RQUF6",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "04F",
+    "fila": 4,
+    "id": "7MUL1",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "05A",
+    "fila": 5,
+    "id": "2F7G3",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "B",
+    "posicion": "05B",
+    "fila": 5,
+    "id": "8VE98",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "05C",
+    "fila": 5,
+    "id": "V6AZY",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "05D",
+    "fila": 5,
+    "id": "WFCET",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "E",
+    "posicion": "05E",
+    "fila": 5,
+    "id": "W1253",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "05F",
+    "fila": 5,
+    "id": "F5T4U",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "06A",
+    "fila": 6,
+    "id": "6C004",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "B",
+    "posicion": "06B",
+    "fila": 6,
+    "id": "0ST2K",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "06C",
+    "fila": 6,
+    "id": "4W1F6",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "06D",
+    "fila": 6,
+    "id": "UFOTY",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "E",
+    "posicion": "06E",
+    "fila": 6,
+    "id": "1NOCK",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "06F",
+    "fila": 6,
+    "id": "21XJ3",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "07A",
+    "fila": 7,
+    "id": "OIJ46",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "B",
+    "posicion": "07B",
+    "fila": 7,
+    "id": "YAUAN",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "07C",
+    "fila": 7,
+    "id": "6RWAT",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "07D",
+    "fila": 7,
+    "id": "9QANG",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "E",
+    "posicion": "07E",
+    "fila": 7,
+    "id": "O28CX",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "07F",
+    "fila": 7,
+    "id": "ZSUF4",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "A",
+    "posicion": "08A",
+    "fila": 8,
+    "id": "MA8AP",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "B",
+    "posicion": "08B",
+    "fila": 8,
+    "id": "G1CEA",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "C",
+    "posicion": "08C",
+    "fila": 8,
+    "id": "AKTF8",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "D",
+    "posicion": "08D",
+    "fila": 8,
+    "id": "XB6WU",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "E",
+    "posicion": "08E",
+    "fila": 8,
+    "id": "2454M",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  },
+  {
+    "columna": "F",
+    "posicion": "08F",
+    "fila": 8,
+    "id": "ZY34I",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    },
+    "disponible": true
+  }
+]

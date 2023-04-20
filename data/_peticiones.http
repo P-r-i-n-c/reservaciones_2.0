@@ -1,0 +1,48 @@
+### Hola mundo
+GET http://localhost:4567/hola
+
+### probar StandardResponse(Response response, int status, String message)
+GET http://localhost:4567/prueba1
+
+### probar StandardResponse(Response response, String message)
+GET http://localhost:4567/prueba2
+
+### probar StandardResponse(Response response, int status, Exception e)
+GET http://localhost:4567/prueba3
+
+### probar StandardResponse(Response response, Exception e)
+GET http://localhost:4567/prueba4
+
+### probar StandardResponse(Response response, int status, String message, JSONObject data)
+GET http://localhost:4567/prueba5/HK2023
+
+### probar StandardResponse(Response response, String message, JSONArray data)
+GET http://localhost:4567/prueba5
+
+### probar StandardResponse(Response response, int status, String message, String data)
+GET http://localhost:4567/prueba6
+### StandardResponse(Response response, String message, JSONObject data)
+GET http://localhost:4567/prueba7
+
+### probar Obtener un avion actualizado
+GET http://localhost:4567/prueba8
+
+### obtener un array JSON de todos los usuarios.
+GET http://localhost:4567/usuarios
+
+### obtener un objeto JSON de un usuario con su id.
+GET http://localhost:4567/usuarios/000
+
+### obtener un array JSON de todas las reservas existentes
+GET http://localhost:4567/reservas
+
+### Cambiar "algo" de un vuelo, de los tantos que puede estar asociados a una reserva
+PUT http://localhost:4567/reservas/AHNKI
+
+{
+    "idVuelo": "EEOI6",
+    "idSilla": "NY15B"
+}
+
+
+

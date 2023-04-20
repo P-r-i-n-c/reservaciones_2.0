@@ -1,0 +1,258 @@
+[
+  {
+    "checkIn": true,
+    "cancelada": false,
+    "costo": 120000,
+    "fechaHora": "2023-04-13T11:26:04.164907",
+    "usuario": {
+      "apellidos": "Alimaña",
+      "identificacion": "1031420854",
+      "tipoUsuario": "ADMINISTRADOR",
+      "contraseña": "202cb962ac59075b964b07152d234b70",
+      "nombres": "Juanito"
+    },
+    "id": "AHNKI",
+    "vuelo": {
+      "trayecto": {
+        "costo": 120000,
+        "duracion": "PT2H30M",
+        "origen": "Manizales",
+        "destino": "Cali",
+        "id": "NHDG"
+      },
+      "estado": "PROGRAMADO",
+      "fechaHora": "2023-05-12T12:32",
+      "id": "EEOI6",
+      "avion": {
+        "matricula": "HK2023",
+        "modelo": "Boeing"
+      }
+    },
+    "silla": {
+      "columna": "A",
+      "posicion": "03A",
+      "fila": 3,
+      "id": "0GNQX",
+      "avion": {
+        "matricula": "HK2023",
+        "modelo": "Boeing"
+      },
+      "disponible": false
+    }
+  },
+  {
+    "checkIn": true,
+    "cancelada": false,
+    "costo": 120000,
+    "fechaHora": "2023-04-13T11:26:04.165230",
+    "usuario": {
+      "apellidos": "Alimaña",
+      "identificacion": "1031420854",
+      "tipoUsuario": "ADMINISTRADOR",
+      "contraseña": "202cb962ac59075b964b07152d234b70",
+      "nombres": "Juanito"
+    },
+    "id": "EFP8X",
+    "vuelo": {
+      "trayecto": {
+        "costo": 120000,
+        "duracion": "PT2H30M",
+        "origen": "Manizales",
+        "destino": "Cali",
+        "id": "NHDG"
+      },
+      "estado": "PROGRAMADO",
+      "fechaHora": "2023-05-12T12:32",
+      "id": "EEOI6",
+      "avion": {
+        "matricula": "HK2023",
+        "modelo": "Boeing"
+      }
+    },
+    "silla": {
+      "columna": "A",
+      "posicion": "01A",
+      "fila": 1,
+      "licor": "OPORTO",
+      "id": "OGKX5",
+      "menu": "VEGETARIANO",
+      "avion": {
+        "matricula": "HK2023",
+        "modelo": "Boeing"
+      },
+      "disponible": false
+    }
+  },
+  {
+    "checkIn": true,
+    "cancelada": false,
+    "costo": 120000,
+    "fechaHora": "2023-04-13T11:26:04.165488",
+    "usuario": {
+      "apellidos": "ela",
+      "identificacion": "000",
+      "tipoUsuario": "AUXILIAR",
+      "contraseña": "202cb962ac59075b964b07152d234b70",
+      "nombres": "Manu"
+    },
+    "id": "TLM33",
+    "vuelo": {
+      "trayecto": {
+        "costo": 120000,
+        "duracion": "PT2H30M",
+        "origen": "Manizales",
+        "destino": "Cali",
+        "id": "NHDG"
+      },
+      "estado": "PROGRAMADO",
+      "fechaHora": "2023-05-12T12:32",
+      "id": "EEOI6",
+      "avion": {
+        "matricula": "HK2023",
+        "modelo": "Boeing"
+      }
+    },
+    "silla": {
+      "columna": "D",
+      "posicion": "01D",
+      "fila": 1,
+      "licor": "WHISKEY",
+      "id": "XUXNU",
+      "menu": "FILETE_DE_PESCADO",
+      "avion": {
+        "matricula": "HK2023",
+        "modelo": "Boeing"
+      },
+      "disponible": false
+    }
+  },
+  {
+    "checkIn": true,
+    "cancelada": false,
+    "costo": 120000,
+    "fechaHora": "2023-04-13T11:26:04.165697",
+    "usuario": {
+      "apellidos": "Alimaña",
+      "identificacion": "1031420854",
+      "tipoUsuario": "ADMINISTRADOR",
+      "contraseña": "202cb962ac59075b964b07152d234b70",
+      "nombres": "Juanito"
+    },
+    "id": "NX5TJ",
+    "vuelo": {
+      "trayecto": {
+        "costo": 120000,
+        "duracion": "PT2H30M",
+        "origen": "Manizales",
+        "destino": "Cali",
+        "id": "NHDG"
+      },
+      "estado": "PROGRAMADO",
+      "fechaHora": "2023-05-12T12:32",
+      "id": "EEOI6",
+      "avion": {
+        "matricula": "HK2023",
+        "modelo": "Boeing"
+      }
+    },
+    "silla": {
+      "columna": "A",
+      "posicion": "02A",
+      "fila": 2,
+      "licor": "OPORTO",
+      "id": "KAVKY",
+      "menu": "POLLO_A_LA_NARANJA",
+      "avion": {
+        "matricula": "HK2023",
+        "modelo": "Boeing"
+      },
+      "disponible": false
+    }
+  },
+  {
+    "checkIn": true,
+    "cancelada": false,
+    "costo": 120000,
+    "fechaHora": "2023-04-13T11:26:04.165904",
+    "usuario": {
+      "apellidos": "Alimaña",
+      "identificacion": "1031420854",
+      "tipoUsuario": "ADMINISTRADOR",
+      "contraseña": "202cb962ac59075b964b07152d234b70",
+      "nombres": "Juanito"
+    },
+    "id": "VZC2W",
+    "vuelo": {
+      "trayecto": {
+        "costo": 120000,
+        "duracion": "PT2H30M",
+        "origen": "Manizales",
+        "destino": "Cali",
+        "id": "NHDG"
+      },
+      "estado": "PROGRAMADO",
+      "fechaHora": "2023-05-12T12:32",
+      "id": "EEOI6",
+      "avion": {
+        "matricula": "HK2023",
+        "modelo": "Boeing"
+      }
+    },
+    "silla": {
+      "columna": "C",
+      "posicion": "01C",
+      "fila": 1,
+      "licor": "WHISKEY",
+      "id": "Q9B7U",
+      "menu": "VEGETARIANO",
+      "avion": {
+        "matricula": "HK2023",
+        "modelo": "Boeing"
+      },
+      "disponible": false
+    }
+  },
+  {
+    "checkIn": true,
+    "cancelada": false,
+    "costo": 120000,
+    "fechaHora": "2023-04-13T11:26:38.077439",
+    "usuario": {
+      "apellidos": "ela",
+      "identificacion": "000",
+      "tipoUsuario": "AUXILIAR",
+      "contraseña": "202cb962ac59075b964b07152d234b70",
+      "nombres": "Manu"
+    },
+    "id": "VOMRS",
+    "vuelo": {
+      "trayecto": {
+        "costo": 120000,
+        "duracion": "PT2H30M",
+        "origen": "Manizales",
+        "destino": "Cali",
+        "id": "NHDG"
+      },
+      "estado": "PROGRAMADO",
+      "fechaHora": "2023-05-12T12:32",
+      "id": "EEOI6",
+      "avion": {
+        "matricula": "HK2023",
+        "modelo": "Boeing"
+      }
+    },
+    "silla": {
+      "columna": "C",
+      "posicion": "02C",
+      "fila": 2,
+      "licor": "VINO",
+      "id": "DUU8Z",
+      "menu": "VEGETARIANO",
+      "avion": {
+        "matricula": "HK2023",
+        "modelo": "Boeing"
+      },
+      "disponible": false
+    }
+  }
+]

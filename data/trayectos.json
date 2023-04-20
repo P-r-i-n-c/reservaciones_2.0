@@ -1,0 +1,16 @@
+[
+  {
+    "costo": 120000,
+    "duracion": "PT2H30M",
+    "origen": "Manizales",
+    "destino": "Cali",
+    "id": "NHDG"
+  },
+  {
+    "costo": 90000,
+    "duracion": "PT4H20M",
+    "origen": "China",
+    "destino": "Japon",
+    "id": "JWCA"
+  }
+]

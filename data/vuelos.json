@@ -1,0 +1,34 @@
+[
+  {
+    "trayecto": {
+      "costo": 120000,
+      "duracion": "PT2H30M",
+      "origen": "Manizales",
+      "destino": "Cali",
+      "id": "NHDG"
+    },
+    "estado": "PROGRAMADO",
+    "fechaHora": "2023-05-12T12:32",
+    "id": "EEOI6",
+    "avion": {
+      "matricula": "HK2023",
+      "modelo": "Boeing"
+    }
+  },
+  {
+    "trayecto": {
+      "costo": 90000,
+      "duracion": "PT4H20M",
+      "origen": "China",
+      "destino": "Japon",
+      "id": "JWCA"
+    },
+    "estado": "PROGRAMADO",
+    "fechaHora": "2024-04-19T11:11",
+    "id": "2MX20",
+    "avion": {
+      "matricula": "HK2077",
+      "modelo": "Chevrolet"
+    }
+  }
+]
