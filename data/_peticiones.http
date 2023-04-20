@@ -43,8 +43,7 @@ GET http://localhost:4567/reservas/ANCMV
 PUT http://localhost:4567/reservas/ANCMV
 
 {
-    "idVuelo": "JWCA",
-    "idSilla": "2454M"
+    "idVuelo": "EEOI6"
 }
 
 
