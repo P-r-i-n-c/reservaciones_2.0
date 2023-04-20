@@ -3,22 +3,22 @@
     "checkIn": true,
     "cancelada": false,
     "costo": 120000,
-    "fechaHora": "2023-04-20T11:40:08.634890",
+    "fechaHora": "2023-04-20T12:05:59.170377",
     "usuario": {
       "apellidos": "Alimaña",
-      "identificacion": "1031420854",
       "tipoUsuario": "ADMINISTRADOR",
-      "contraseña": "202cb962ac59075b964b07152d234b70",
-      "nombres": "Juanito"
+      "identificacion": "1031420854",
+      "nombres": "Juanito",
+      "contraseña": "202cb962ac59075b964b07152d234b70"
     },
     "id": "AHNKI",
     "vuelo": {
       "trayecto": {
         "costo": 120000,
         "duracion": "PT2H30M",
-        "id": "NHDG",
         "origen": "Manizales",
-        "destino": "Cali"
+        "destino": "Cali",
+        "id": "NHDG"
       },
       "estado": "PROGRAMADO",
       "fechaHora": "2023-05-12T12:32",
@@ -29,8 +29,8 @@
       }
     },
     "silla": {
-      "columna": "A",
       "posicion": "03A",
+      "columna": "A",
       "fila": 3,
       "id": "0GNQX",
       "avion": {
@@ -44,22 +44,22 @@
     "checkIn": true,
     "cancelada": false,
     "costo": 120000,
-    "fechaHora": "2023-04-20T11:40:08.635191",
+    "fechaHora": "2023-04-20T12:05:59.170788",
     "usuario": {
       "apellidos": "Alimaña",
-      "identificacion": "1031420854",
       "tipoUsuario": "ADMINISTRADOR",
-      "contraseña": "202cb962ac59075b964b07152d234b70",
-      "nombres": "Juanito"
+      "identificacion": "1031420854",
+      "nombres": "Juanito",
+      "contraseña": "202cb962ac59075b964b07152d234b70"
     },
     "id": "EFP8X",
     "vuelo": {
       "trayecto": {
         "costo": 120000,
         "duracion": "PT2H30M",
-        "id": "NHDG",
         "origen": "Manizales",
-        "destino": "Cali"
+        "destino": "Cali",
+        "id": "NHDG"
       },
       "estado": "PROGRAMADO",
       "fechaHora": "2023-05-12T12:32",
@@ -70,8 +70,8 @@
       }
     },
     "silla": {
-      "columna": "A",
       "posicion": "01A",
+      "columna": "A",
       "fila": 1,
       "licor": "OPORTO",
       "id": "OGKX5",
@@ -87,22 +87,22 @@
     "checkIn": true,
     "cancelada": false,
     "costo": 120000,
-    "fechaHora": "2023-04-20T11:40:08.635403",
+    "fechaHora": "2023-04-20T12:05:59.171061",
     "usuario": {
       "apellidos": "ela",
-      "identificacion": "000",
       "tipoUsuario": "AUXILIAR",
-      "contraseña": "202cb962ac59075b964b07152d234b70",
-      "nombres": "Manu"
+      "identificacion": "000",
+      "nombres": "Manu",
+      "contraseña": "202cb962ac59075b964b07152d234b70"
     },
     "id": "TLM33",
     "vuelo": {
       "trayecto": {
         "costo": 120000,
         "duracion": "PT2H30M",
-        "id": "NHDG",
         "origen": "Manizales",
-        "destino": "Cali"
+        "destino": "Cali",
+        "id": "NHDG"
       },
       "estado": "PROGRAMADO",
       "fechaHora": "2023-05-12T12:32",
@@ -113,8 +113,8 @@
       }
     },
     "silla": {
-      "columna": "D",
       "posicion": "01D",
+      "columna": "D",
       "fila": 1,
       "licor": "WHISKEY",
       "id": "XUXNU",
@@ -130,22 +130,22 @@
     "checkIn": true,
     "cancelada": false,
     "costo": 120000,
-    "fechaHora": "2023-04-20T11:40:08.635596",
+    "fechaHora": "2023-04-20T12:05:59.171331",
     "usuario": {
       "apellidos": "Alimaña",
-      "identificacion": "1031420854",
       "tipoUsuario": "ADMINISTRADOR",
-      "contraseña": "202cb962ac59075b964b07152d234b70",
-      "nombres": "Juanito"
+      "identificacion": "1031420854",
+      "nombres": "Juanito",
+      "contraseña": "202cb962ac59075b964b07152d234b70"
     },
     "id": "NX5TJ",
     "vuelo": {
       "trayecto": {
         "costo": 120000,
         "duracion": "PT2H30M",
-        "id": "NHDG",
         "origen": "Manizales",
-        "destino": "Cali"
+        "destino": "Cali",
+        "id": "NHDG"
       },
       "estado": "PROGRAMADO",
       "fechaHora": "2023-05-12T12:32",
@@ -156,8 +156,8 @@
       }
     },
     "silla": {
-      "columna": "A",
       "posicion": "02A",
+      "columna": "A",
       "fila": 2,
       "licor": "OPORTO",
       "id": "KAVKY",
@@ -173,22 +173,22 @@
     "checkIn": true,
     "cancelada": false,
     "costo": 120000,
-    "fechaHora": "2023-04-20T11:40:08.635795",
+    "fechaHora": "2023-04-20T12:05:59.171632",
     "usuario": {
       "apellidos": "Alimaña",
-      "identificacion": "1031420854",
       "tipoUsuario": "ADMINISTRADOR",
-      "contraseña": "202cb962ac59075b964b07152d234b70",
-      "nombres": "Juanito"
+      "identificacion": "1031420854",
+      "nombres": "Juanito",
+      "contraseña": "202cb962ac59075b964b07152d234b70"
     },
     "id": "VZC2W",
     "vuelo": {
       "trayecto": {
         "costo": 120000,
         "duracion": "PT2H30M",
-        "id": "NHDG",
         "origen": "Manizales",
-        "destino": "Cali"
+        "destino": "Cali",
+        "id": "NHDG"
       },
       "estado": "PROGRAMADO",
       "fechaHora": "2023-05-12T12:32",
@@ -199,8 +199,8 @@
       }
     },
     "silla": {
-      "columna": "C",
       "posicion": "01C",
+      "columna": "C",
       "fila": 1,
       "licor": "WHISKEY",
       "id": "Q9B7U",
@@ -216,22 +216,22 @@
     "checkIn": true,
     "cancelada": false,
     "costo": 120000,
-    "fechaHora": "2023-04-20T11:40:08.636056",
+    "fechaHora": "2023-04-20T12:05:59.172024",
     "usuario": {
       "apellidos": "ela",
-      "identificacion": "000",
       "tipoUsuario": "AUXILIAR",
-      "contraseña": "202cb962ac59075b964b07152d234b70",
-      "nombres": "Manu"
+      "identificacion": "000",
+      "nombres": "Manu",
+      "contraseña": "202cb962ac59075b964b07152d234b70"
     },
     "id": "VOMRS",
     "vuelo": {
       "trayecto": {
         "costo": 120000,
         "duracion": "PT2H30M",
-        "id": "NHDG",
         "origen": "Manizales",
-        "destino": "Cali"
+        "destino": "Cali",
+        "id": "NHDG"
       },
       "estado": "PROGRAMADO",
       "fechaHora": "2023-05-12T12:32",
@@ -242,8 +242,8 @@
       }
     },
     "silla": {
-      "columna": "C",
       "posicion": "02C",
+      "columna": "C",
       "fila": 2,
       "licor": "VINO",
       "id": "DUU8Z",
@@ -259,39 +259,39 @@
     "checkIn": true,
     "cancelada": false,
     "costo": 90000,
-    "fechaHora": "2023-04-20T11:41:10.099229",
+    "fechaHora": "2023-04-20T12:05:59.172292",
     "usuario": {
       "apellidos": "Alimaña",
-      "identificacion": "1031420854",
       "tipoUsuario": "ADMINISTRADOR",
-      "contraseña": "202cb962ac59075b964b07152d234b70",
-      "nombres": "Juanito"
+      "identificacion": "1031420854",
+      "nombres": "Juanito",
+      "contraseña": "202cb962ac59075b964b07152d234b70"
     },
     "id": "ANCMV",
     "vuelo": {
       "trayecto": {
-        "costo": 90000,
-        "duracion": "PT4H20M",
-        "id": "JWCA",
-        "origen": "China",
-        "destino": "Japon"
+        "costo": 120000,
+        "duracion": "PT2H30M",
+        "origen": "Manizales",
+        "destino": "Cali",
+        "id": "NHDG"
       },
       "estado": "PROGRAMADO",
-      "fechaHora": "2024-04-19T11:11",
-      "id": "2MX20",
+      "fechaHora": "2023-05-12T12:32",
+      "id": "EEOI6",
       "avion": {
-        "matricula": "HK2077",
-        "modelo": "Chevrolet"
+        "matricula": "HK2023",
+        "modelo": "Boeing"
       }
     },
     "silla": {
-      "columna": "F",
-      "posicion": "08F",
-      "fila": 8,
-      "id": "ZY34I",
+      "posicion": "03B",
+      "columna": "B",
+      "fila": 3,
+      "id": "X21HM",
       "avion": {
-        "matricula": "HK2077",
-        "modelo": "Chevrolet"
+        "matricula": "HK2023",
+        "modelo": "Boeing"
       },
       "disponible": false
     }

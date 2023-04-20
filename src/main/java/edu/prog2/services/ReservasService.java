@@ -12,7 +12,6 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import edu.prog2.helpers.Utils;
-import edu.prog2.model.Estado;
 import edu.prog2.model.Licor;
 import edu.prog2.model.Menu;
 import edu.prog2.model.Reserva;
@@ -204,49 +203,50 @@ public class ReservasService {
 
         if (body.has("idVuelo")) {
 
-            LocalDateTime fechaHora = LocalDateTime.parse(body.getString("fechaHora"));
-            Vuelo vuelo = vuelos.get(new Vuelo(body.getString("idVuelo")));
+            Vuelo vuelo = vuelos.get(new Vuelo(body.getString("idVuelo"))); // nueva instancia
 
-            if (vuelo != null && !vuelo.getEstado().equals(Estado.CANCELADO)
-                    && fechaHora.compareTo(LocalDateTime.now()) >= 0) {
+            if (vuelo == null) {
+                throw new Exception("El vuelo no existe, esta cancelado o la fecha no coincide");
+            }
 
-                if (body.has("idSilla")) {
+            if (vuelo.getFechaHora().compareTo(LocalDateTime.now()) >= 0) {
+                reserva.setVuelo(vuelo);
+            }else {
+                throw new Exception("La fecha esta en el pasado :(");
+            }
 
-                    Silla silla = sillas.get(new Silla(body.getString("idSilla")));
+            if (body.has("idSilla")) {
 
-                    if (silla != null && seatAvailableOnFlight(silla, vuelo)) {
+                Silla silla = sillas.get(new Silla(body.getString("idSilla")));
 
-                        asignarSilla(body, reserva, silla);
-                        reserva.setVuelo(vuelo);
+                if (silla != null && seatAvailableOnFlight(silla, vuelo)) {
 
-                    } else {
-                        throw new Exception("La silla no esta disponible o no existe");
-                    }
+                    asignarSilla(body, reserva, silla);
+                    reserva.setVuelo(vuelo);
 
                 } else {
-
-                    List<Silla> sillasDisponibles = seatsAvailableOnFlight(vuelo);
-
-                    if (sillasDisponibles.isEmpty()) {
-
-                        throw new Exception("El vuelo no tiene sillas disponibles");
-                    }
-
-                    Class<?> claseSilla = reserva.getSilla().getClass();
-
-                    for (Silla silla : sillasDisponibles) {
-                        if (claseSilla.equals(silla.getClass())) {
-                            asignarSilla(body, reserva, silla);
-                            reserva.setVuelo(vuelo);
-                            break;
-                        }
-                    }
-
+                    throw new Exception("La silla no esta disponible o no existe");
                 }
 
             } else {
 
-                throw new Exception("El vuelo no existe, esta cancelado o la fecha no coincide");
+                List<Silla> sillasDisponibles = seatsAvailableOnFlight(vuelo);
+
+                if (sillasDisponibles.isEmpty()) {
+
+                    throw new Exception("El vuelo no tiene sillas disponibles");
+                }
+
+                Class<?> claseSilla = reserva.getSilla().getClass();
+
+                for (Silla silla : sillasDisponibles) {
+                    if (claseSilla.equals(silla.getClass())) {
+                        asignarSilla(body, reserva, silla);
+                        reserva.setVuelo(vuelo);
+                        break;
+                    }
+                }
+
             }
 
         } else {
