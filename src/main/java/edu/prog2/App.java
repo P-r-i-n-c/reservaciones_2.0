@@ -1,5 +1,7 @@
 package edu.prog2;
 
+import static spark.Spark.get;
+
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.List;
@@ -25,8 +27,6 @@ import edu.prog2.services.SillasService;
 import edu.prog2.services.TrayectosService;
 import edu.prog2.services.UsuariosService;
 import edu.prog2.services.VuelosService;
-
-import static spark.Spark.*;
 
 public class App {
 
@@ -119,6 +119,9 @@ public class App {
                     case 22:
                         crearReservas();
                         break;
+                    case 23:
+                        listarReservas();
+                        break;
                     case 99:
                         get("/hello", (req, res) -> usuarios.getJSONArray().toString(2));
                         break;
@@ -163,7 +166,7 @@ public class App {
                 + "  4 - Crear vuelos                   20 - Buscar usuario por id 2              \n"
                 + "  5 - Crear vuelo                    21 - Prueba update vuelos                 \n"
                 + "  6 - Listar usuarios                22 - Crear Reservas                       \n"
-                + "  7 - Listar aviones con sillas         - ---------------------------          \n"
+                + "  7 - Listar aviones con sillas      23 - Listar Reservas                      \n"
                 + "  8 - Listar trayectos                  - ---------------------------          \n"
                 + "  9 - Listar vuelos                     - ---------------------------          \n"
                 + " 10 - Remover silla                     - ---------------------------          \n"
@@ -181,6 +184,15 @@ public class App {
         int opcion = Keyboard.readInt(opciones);
         System.out.println();
         return opcion;
+    }
+
+    private static void listarReservas() {
+        System.out.println("-".repeat(100));
+
+        for (Reserva reserva : reservas.getList()) {
+            System.out.println(reserva);
+            System.out.println("-".repeat(100));
+        }
     }
 
     private static void listarSillas() throws Exception {

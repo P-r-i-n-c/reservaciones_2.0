@@ -114,7 +114,7 @@ public class UsuariosService {
     }
 
     public JSONObject set(String identificacion, JSONObject json) throws Exception {
-        Usuario usuario = new Usuario(json);
+        Usuario usuario = get(new Usuario(json));
         usuario.setIdentificacion(identificacion);
         int index = usuarios.indexOf(usuario);
 

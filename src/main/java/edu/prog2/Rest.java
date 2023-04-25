@@ -1,6 +1,7 @@
 package edu.prog2;
 
 import static spark.Spark.get;
+import static spark.Spark.post;
 import static spark.Spark.put;
 
 import java.util.Locale;
@@ -9,6 +10,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import edu.prog2.helpers.StandardResponse;
+import edu.prog2.model.Usuario;
 import edu.prog2.services.AvionesService;
 import edu.prog2.services.ReservasService;
 import edu.prog2.services.SillasService;
@@ -133,6 +135,12 @@ public class Rest {
             JSONObject jsonBody = new JSONObject(request.body());
             JSONObject json = reservas.set(id, jsonBody);
             return new StandardResponse(response, "ok", json);
+        });
+
+        post("", (request, response) -> {
+            Usuario usuario = new Usuario(new JSONObject(request.body()));
+            usuarios.add(usuario);
+            return new StandardResponse(response, "ok");
         });
 
     }
