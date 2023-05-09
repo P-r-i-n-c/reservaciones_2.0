@@ -63,6 +63,10 @@ public class SillasService {
         return sillas.get(index);
     }
 
+    public JSONObject get(String id) throws Exception {
+        return getJSON(new Silla(id));
+    }
+
     public Silla get(Silla silla) {
         int index = sillas.indexOf(silla);
         silla = index > -1 ? sillas.get(index) : null;

@@ -27,14 +27,14 @@ PUT http://localhost:4567/usuarios/U0005
 Content-Type: application/json; charset=utf-8
 
 {
-    "nombres": "Natalia",
+    "nombres": "Sara",
     "apellidos": "Pérez Manrique",
-    "tipoUsuario": "CLIENTE",
+    "TipoUsuario": "CLIENTE",
     "contraseña": "123"
 }
 
 ### eliminar un usuario
-DELETE http://localhost:4567/usuarios/U9999
+DELETE http://localhost:4567/usuarios/U0005
 
 // -------------------- TRAYECTOS ----------------------
 
@@ -42,7 +42,7 @@ DELETE http://localhost:4567/usuarios/U9999
 GET http://localhost:4567/trayectos
 
 ### buscar un trayecto
-GET http://localhost:4567/trayectos/origen=Cali&destino=Bucaramanga
+GET http://localhost:4567/trayectos/origen=China&destino=Japon
 
 ### crear un trayecto
 POST http://localhost:4567/trayectos
@@ -56,7 +56,7 @@ Content-Type: application/json; charset=utf-8
 }
 
 ### actualizar un trayecto
-PUT http://localhost:4567/trayectos/D0NAK
+PUT http://localhost:4567/trayectos/NHDG
 Content-Type: application/json; charset=utf-8
 
 {
@@ -79,11 +79,11 @@ GET http://localhost:4567/aviones
 
 
 ### Generar un JSON los datos del avión con la matrícula dada
-GET http://localhost:4567/aviones/HK2005
+GET http://localhost:4567/aviones/HK2023
 Content-Type: application/json; charset=utf-8
 
 ### Actualizar el modelo del avión con la matrícula dada
-PUT http://localhost:4567/aviones/HK2005
+PUT http://localhost:4567/aviones/HK2023
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,7 +95,7 @@ POST http://localhost:4567/aviones
 Content-Type: application/json; charset=utf-8
 
 {
-    "matricula" : "HK2023",
+    "matricula" : "HK2024",
     "modelo" : "Airbus A321XLR"
 }
 
@@ -108,10 +108,10 @@ DELETE http://localhost:4567/aviones/HK2023
 GET http://localhost:4567/sillas
 
 ### buscar una silla por ID (económica)
-GET http://localhost:4567/sillas/YEK2K
+GET http://localhost:4567/sillas/0GNQX
 
 ### buscar una silla por ID (ejecutiva)
-GET http://localhost:4567/sillas/RG9MC
+GET http://localhost:4567/sillas/Q9B7U
 
 ### listar las sillas de un avión
 GET http://localhost:4567/sillas/select/HK2005

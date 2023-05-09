@@ -114,26 +114,40 @@ public class TrayectosService {
     }
 
     public JSONObject set(String id, JSONObject json) throws Exception {
-        Trayecto trayecto = new Trayecto(json);
-        trayecto.setId(id);
-        int index = trayectos.indexOf(trayecto);
-        if (index < 0) {
+        Trayecto trayecto = get(new Trayecto(id));
+
+        if (trayecto == null) {
             throw new NullPointerException("No se encontró el trayecto " + id);
+        } else {
+            trayecto.setId(id);
         }
 
-        trayectos.set(index, trayecto);
+        trayecto.setOrigen(json.getString("origen"));
+        trayecto.setDestino(json.getString("destino"));
+        trayecto.setCosto(json.getDouble("costo"));
+        String duracionStr = json.getString("duracion");
+        Duration duracion = Duration.parse(duracionStr);
+
+        trayecto.setDuracion(duracion);
+
         Utils.writeData(trayectos, fileName);
         return new JSONObject(trayecto);
     }
 
     public void remove(String id) throws Exception {
         Trayecto trayecto = new Trayecto(id);
-        // – pendiente aquí una verificación importante…
+
+        if (Utils.exists(Utils.PATH + "vuelos", "trayecto", trayecto)) {
+            throw new Exception(String.format(
+                    "No eliminado. El trayecto %s tiene un vuelo", id));
+        }
+
         if (!trayectos.remove(trayecto)) {
             throw new Exception(
                     String.format(
                             "No se encontró el trayecto con identificación %s", id));
         }
+
         Utils.writeData(trayectos, fileName);
     }
 

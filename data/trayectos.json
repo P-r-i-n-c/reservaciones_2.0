@@ -1,9 +1,9 @@
 [
   {
-    "costo": 120000,
-    "duracion": "PT2H30M",
-    "origen": "Manizales",
-    "destino": "Cali",
+    "costo": 199999,
+    "duracion": "PT50M",
+    "origen": "Leticia",
+    "destino": "Ibagué",
     "id": "NHDG"
   },
   {
@@ -12,5 +12,12 @@
     "origen": "China",
     "destino": "Japon",
     "id": "JWCA"
+  },
+  {
+    "costo": 180000,
+    "duracion": "PT50M",
+    "origen": "bbb",
+    "destino": "ccc",
+    "id": "A2441"
   }
 ]

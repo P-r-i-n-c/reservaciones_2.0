@@ -1,10 +1,14 @@
 [
   {
     "matricula": "HK2023",
-    "modelo": "Boeing"
+    "modelo": "Boeing 737"
   },
   {
     "matricula": "HK2077",
     "modelo": "Chevrolet"
+  },
+  {
+    "matricula": "HK2024",
+    "modelo": "Airbus A321XLR"
   }
 ]

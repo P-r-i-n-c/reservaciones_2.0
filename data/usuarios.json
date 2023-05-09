@@ -12,12 +12,5 @@
     "identificacion": "000",
     "nombres": "Manu",
     "contraseña": "202cb962ac59075b964b07152d234b70"
-  },
-  {
-    "apellidos": "Baum",
-    "tipoUsuario": "CLIENTE",
-    "identificacion": "U0005",
-    "nombres": "Frank",
-    "contraseña": "202cb962ac59075b964b07152d234b70"
   }
 ]

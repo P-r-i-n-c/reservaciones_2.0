@@ -3,6 +3,7 @@ package edu.prog2.helpers;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.StringReader;
+import java.lang.reflect.Constructor;
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -37,6 +38,34 @@ public class Utils {
     public static final String CYAN = "\u001B[36m";
     public static final String WHITE = "\u001B[37m";
     public static final String PATH = "./data/";
+
+    public static boolean exists(String fileName, String key, Object search) 
+    throws Exception {
+    String data = readText(fileName + ".json");
+    JSONArray jsonArrayData = new JSONArray(data);
+
+    // referenciar el constructor que crea instancias a partir de un JSONObject
+    Constructor<?> constructor = search.getClass().getConstructor(JSONObject.class);
+
+    for (int i = 0; i < jsonArrayData.length(); i++) {
+        // obtener el JSONObject del array en la iteración actual
+        JSONObject jsonObj = jsonArrayData.getJSONObject(i);
+
+        if (jsonObj.has(key)) {
+            // De la instancia actual obtener el objeto JSON a verificar
+            jsonObj = jsonObj.getJSONObject(key);
+            // Crear una instancia Java a partir de jsonObj
+            Object current = constructor.newInstance(jsonObj);
+
+            if (current.equals(search)) {
+                return true;
+            }
+        }
+    }
+
+    return false;
+}
+
 
     public static String strDateTime(LocalDateTime dateTime) {
         java.time.format.DateTimeFormatter formato = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");

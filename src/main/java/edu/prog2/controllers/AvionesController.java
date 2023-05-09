@@ -6,44 +6,43 @@ import static spark.Spark.post;
 import static spark.Spark.put;
 import static spark.Spark.delete;
 
-
 import org.json.JSONObject;
 
 import edu.prog2.helpers.StandardResponse;
-import edu.prog2.model.Usuario;
-import edu.prog2.services.UsuariosService;
+import edu.prog2.model.Avion;
+import edu.prog2.services.AvionesService;
 import spark.Request;
 import spark.Response;
 
-public class UsuariosController {
+public class AvionesController {
 
-    public UsuariosController(final UsuariosService usuariosService) {
+    public AvionesController(final AvionesService avionesService) {
 
-        path("/usuarios", () -> {
-            get("", (request, response) -> new StandardResponse(response, "ok", usuariosService.getJSONArray()));
+        path("/aviones", () -> {
+            get("", (request, response) -> new StandardResponse(response, "ok", avionesService.getJSONArray()));
 
-            get("/:id", (Request request, Response response) -> {
-                String id = request.params(":id");
-                JSONObject json = usuariosService.get(id);
+            get("/:matricula", (Request request, Response response) -> {
+                String matricula = request.params(":matricula");
+                JSONObject json = avionesService.get(matricula);
                 return new StandardResponse(response, "ok", json);
             });
 
             post("", (request, response) -> {
-                Usuario usuario = new Usuario(new JSONObject(request.body()));
-                usuariosService.add(usuario);
+                Avion avion = new Avion(new JSONObject(request.body()));
+                avionesService.add(avion);
                 return new StandardResponse(response, "ok");
             });
 
             put("/:identificacion", (request, response) -> {
                 String identificacion = request.params(":identificacion");
                 JSONObject json = new JSONObject(request.body());
-                json = usuariosService.set(identificacion, json);
+                json = avionesService.set(identificacion, json);
                 return new StandardResponse(response, "ok", json);
             });
 
             delete("/:id", (request, response) -> {
                 String id = request.params(":id");
-                usuariosService.remove(id);
+                avionesService.remove(id);
                 return new StandardResponse(response, "ok");
             });
 

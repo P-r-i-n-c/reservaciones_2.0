@@ -10,6 +10,7 @@ import org.json.JSONObject;
 
 import edu.prog2.helpers.Utils;
 import edu.prog2.model.Avion;
+import edu.prog2.model.TipoUsuario;
 
 public class AvionesService {
     private List<Avion> aviones;
@@ -108,15 +109,17 @@ public class AvionesService {
     }
 
     public JSONObject set(String matricula, JSONObject json) throws Exception {
-        Avion avion = new Avion(json);
-        avion.setMatricula(matricula);
-        int index = aviones.indexOf(avion);
+        Avion avion = get(new Avion(matricula));
 
-        if (index < 0) {
-            throw new NullPointerException("No se encontró el avion con matricula %s" + matricula);
+        if (avion == null) {
+            throw new NullPointerException("No se encontro el usuario con matricula " + matricula);
+
+        } else {
+            avion.setMatricula(matricula);
         }
 
-        aviones.set(index, avion);
+        avion.setModelo(json.getString("modelo"));
+
         Utils.writeData(aviones, fileName);
         return new JSONObject(avion);
     }
@@ -124,12 +127,19 @@ public class AvionesService {
     public void remove(String matricula) throws Exception {
         Avion avion = new Avion(matricula);
 
+        if (Utils.exists(Utils.PATH + "reservas", "avion", avion)
+                || Utils.exists(Utils.PATH + "vuelos", "avion", avion)) {
+            throw new Exception(
+                    String.format("No eliminado. El avion %s tiene sillas o está asignado a un vuelo.", matricula));
+        }
+
         if (!aviones.remove(avion)) {
             throw new Exception(
                     String.format(
                             "No se encontró el avion con matricula %s", matricula));
         }
         Utils.writeData(aviones, fileName);
+
     }
 
     public void update() throws Exception {

@@ -61,7 +61,7 @@ public class Usuario implements IFormatCSV {
         return contraseña;
     }
 
-    public void setContraseña(String contraseña) {
+    public void setContrasenia(String contraseña) {
         this.contraseña = contraseña;
     }
 

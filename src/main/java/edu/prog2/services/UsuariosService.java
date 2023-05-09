@@ -114,27 +114,37 @@ public class UsuariosService {
     }
 
     public JSONObject set(String identificacion, JSONObject json) throws Exception {
-        Usuario usuario = get(new Usuario(json));
-        usuario.setIdentificacion(identificacion);
-        int index = usuarios.indexOf(usuario);
+        Usuario usuario = get(new Usuario(identificacion));
 
-        if (index < 0) {
-            throw new NullPointerException("No se encontró el usuario " + identificacion);
+        if (usuario == null) {
+            throw new NullPointerException("No se encontro el usuario con identificacion " + identificacion);
+
+        } else {
+            usuario.setIdentificacion(identificacion);
         }
 
-        usuarios.set(index, usuario);
+        usuario.setNombres(json.getString("nombres"));
+        usuario.setApellidos(json.getString("apellidos"));
+        usuario.setTipoUsuario(TipoUsuario.valueOf(json.getString("TipoUsuario")));
+        usuario.setContrasenia(json.getString("contraseña"));
+
         Utils.writeData(usuarios, fileName);
         return new JSONObject(usuario);
     }
 
     public void remove(String identificacion) throws Exception {
         Usuario usuario = new Usuario(identificacion);
-        // – pendiente aquí una verificación importante…
-        if (!usuarios.remove(usuario)) {
-            throw new Exception(
-                    String.format(
-                            "No se encontró el usuario con identificación %s", identificacion));
+
+        if (Utils.exists(Utils.PATH + "reservas", "usuario", usuario)) {
+            throw new Exception(String.format(
+                    "No eliminado. El usuario %s tiene reservas", identificacion));
         }
+
+        if (!usuarios.remove(usuario)) {
+            throw new Exception(String.format(
+                    "No se encontró el usuario con identificación %s", identificacion));
+        }
+
         Utils.writeData(usuarios, fileName);
     }
 
